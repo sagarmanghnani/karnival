@@ -4,6 +4,11 @@
     display: flex;
     background: $card-background;
     font-size: $basic-font-size;
+
+    .icon-margin{
+      margin-right: 5px;
+    }
+
     .full-address{
       color: $secondary-text-color;
       .primary-text{

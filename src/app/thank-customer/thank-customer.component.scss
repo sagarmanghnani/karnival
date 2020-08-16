@@ -1,0 +1,18 @@
+@import '../../styles.scss';
+
+.thank-customer{
+  background: $card-background;
+  padding: 10px;
+  padding-left: 5px;
+
+  .thank-msg{
+    font-size: $basic-font-size;
+    color: $secondary-text-color;
+  }
+
+  .customer-data{
+    font-size: $heading-font-size;
+    color: $primary-text-color;
+  }
+
+}

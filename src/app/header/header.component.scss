@@ -1,0 +1,23 @@
+@import '../../styles.scss';
+
+.header-container{
+  background: white;
+
+  .image-container{
+    position: relative;
+    height: 75px;
+    img{
+      height: 160px;
+      width: 110%;
+      position: absolute;
+      bottom: -45px;
+      left: -21px;
+    }
+  }
+
+  .title{
+    color: $icon-color;
+    padding-left: 20px;
+  }
+
+}

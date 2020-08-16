@@ -13,11 +13,14 @@ $icon-color:#4ab1b6;
 $btn-text:white;
 $border:#fad06a;
 $basic-font-size:0.89rem;
+$heading-font-size:1rem;
 
 body{
   background: $main-background;
   height: 100vh;
   width: 100vw;
-  border: 5px solid $border;
+  border-left: 5px solid $border;
+  border-right: 5px solid $border;
+  border-bottom: 5px solid $border;
 }
 
