@@ -1,3 +1,4 @@
+@import '../styles.scss';
 .main-container{
 
   .header{
@@ -7,6 +8,10 @@
   .component{
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .icon-center{
+    color: $icon-color;
   }
 
 }

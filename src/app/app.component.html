@@ -24,7 +24,18 @@
     <div>
       <app-invoice-details [count] = 1 [itemHeading] = "'Celio T-shirt'"></app-invoice-details>
     </div>
-    <div> <app-invoice-details [count] = 2 [itemHeading] = "'Jealous Top'" ></app-invoice-details> </div>
+
+    <div style="margin-top: 3px;"> <app-invoice-details [count] = 2 [itemHeading] = "'Jealous Top'" ></app-invoice-details> </div>
   </div>
+
+  <div style="text-align: center;">
+    <i class="fas fa-arrow-down" class="icon-center"></i>
+  </div>
+
+
+  <div class="component">
+    <app-download-invoice></app-download-invoice>
+  </div>
+
 
 </div>

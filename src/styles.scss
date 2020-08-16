@@ -16,6 +16,8 @@ $border:#fad06a;
 $basic-font-size:0.89rem;
 $heading-font-size:1rem;
 
+$btn-color:#4ab1b6;
+
 body{
   background: $main-background;
   height: 100vh;
@@ -23,5 +25,15 @@ body{
   border-left: 5px solid $border;
   border-right: 5px solid $border;
   border-bottom: 5px solid $border;
+}
+
+.icon-left{
+  margin-left: 5px;
+  color: $icon-color;
+}
+
+.icon-right{
+  margin-right: 5px;
+  color: $icon-color;
 }
 
