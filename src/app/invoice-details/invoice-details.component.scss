@@ -1,0 +1,27 @@
+
+@import '../../styles.scss';
+.invoice-container{
+  display: flex;
+  padding: 10px;
+  padding-left: 5px;
+  background: white;
+  font-size: $basic-font-size;
+  .item-details{
+    display: flex;
+    justify-content: space-between;
+    .item{
+      color: $tertiary-text-color;
+    }
+
+    .price{
+      color: $primary-text-color;
+    }
+  }
+
+  .item-amount{
+    color: $tertiary-text-color;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+}

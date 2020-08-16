@@ -15,4 +15,16 @@
   <div class="thank-customer component">
     <app-thank-customer></app-thank-customer>
   </div>
+
+  <div class="amount-info component">
+    <app-amount-paid></app-amount-paid>
+  </div>
+
+  <div>
+    <div>
+      <app-invoice-details [count] = 1 [itemHeading] = "'Celio T-shirt'"></app-invoice-details>
+    </div>
+    <div> <app-invoice-details [count] = 2 [itemHeading] = "'Jealous Top'" ></app-invoice-details> </div>
+  </div>
+
 </div>

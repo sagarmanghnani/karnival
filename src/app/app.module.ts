@@ -8,6 +8,7 @@ import { CustomerInfoComponent } from './customer-info/customer-info.component';
 import { HeaderComponent } from './header/header.component';
 import { ThankCustomerComponent } from './thank-customer/thank-customer.component';
 import { AmountPaidComponent } from './amount-paid/amount-paid.component';
+import { InvoiceDetailsComponent } from './invoice-details/invoice-details.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AmountPaidComponent } from './amount-paid/amount-paid.component';
     CustomerInfoComponent,
     HeaderComponent,
     ThankCustomerComponent,
-    AmountPaidComponent
+    AmountPaidComponent,
+    InvoiceDetailsComponent
   ],
   imports: [
     BrowserModule,
