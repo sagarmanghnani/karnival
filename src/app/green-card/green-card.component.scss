@@ -1,0 +1,46 @@
+@import '../../styles.scss';
+.green-card-container{
+  color: $icon-color;
+  background: #fbe2c3;
+  font-size: $basic-font-size;
+  box-shadow: 7px 1px 6px #dedede;
+  .green-card-circle{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .green-card-text{
+    padding: 10px;
+  }
+
+  .circle-div{
+    width: 40.33%;
+    background: #fcefdf;
+    height: 40.33vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 6px #dedede;
+
+    .pricing{
+      font-size: $large-font-size;
+      font-weight: 600;
+    }
+
+    .hr-line{
+      border: 1px solid;
+      width: 20px;
+      margin: auto;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+  }
+
+  .more-details{
+    background: #fbdeb7;
+    margin-top: 6px;
+  }
+
+}

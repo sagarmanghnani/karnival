@@ -1,6 +1,6 @@
 @import '../styles.scss';
 .main-container{
-
+  border: 5px solid $border;
   .header{
     margin-bottom: 15px;
   }
@@ -12,6 +12,18 @@
 
   .icon-center{
     color: $icon-color;
+  }
+
+  .profile-btn{
+    height: 70px;
+    background: $btn-color;
+    width: 100vw;
+    display: flex;
+    .btn-int-text{
+      color: white;
+      align-self: center;
+      padding-left: 10px;
+    }
   }
 
 }
